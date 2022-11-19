@@ -13,10 +13,16 @@ export default defineComponent({
     return () => {
       return (
         <div>
-          <div class="root">a</div>
+          <div class="root">abcs</div>
           <img src={logo} alt="" />
         </div>
       )
     }
   }
 })
+
+if (import.meta.hot) {
+  import.meta.hot.on('test', (val) => {
+    console.log('val: ', val)
+  })
+}

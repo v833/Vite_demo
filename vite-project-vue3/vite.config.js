@@ -1,17 +1,11 @@
-/*
- * @Description:
- * @Author: v833
- * @Date: 2022-06-26 15:43:40
- * @LastEditors: v833
- * @LastEditTime: 2022-08-14 16:25:43
- */
 import { defineConfig } from 'vite'
 import vue from '@vitejs/plugin-vue'
 import vueJsx from '@vitejs/plugin-vue-jsx'
 import path from 'path'
+import testPlugin from './plugins/test-plugin'
 // https://vitejs.dev/config/
 export default defineConfig({
-  plugins: [vue(), vueJsx()],
+  plugins: [vue(), vueJsx(), testPlugin()],
   server: {
     port: 1234
   },

@@ -6,14 +6,9 @@
  * @LastEditTime: 2022-08-14 11:38:00
 -->
 <template>
-  <div>
-    my test
-  </div>
+  <div>my test_</div>
 </template>
 
-<script setup>
+<script setup></script>
 
-</script>
-
-<style lang="scss" scoped>
-</style>
+<style lang="scss" scoped></style>
