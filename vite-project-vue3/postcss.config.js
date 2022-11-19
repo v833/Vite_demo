@@ -6,5 +6,5 @@
  * @LastEditTime: 2022-08-13 22:02:55
  */
 module.exports = {
-  plugins: [require('@postcss-plugins/console')],
+  plugins: [require('@postcss-plugins/console')]
 }

@@ -3,9 +3,10 @@
  * @Author: v833
  * @Date: 2022-08-13 17:59:59
  * @LastEditors: v833
- * @LastEditTime: 2022-08-13 22:17:54
+ * @LastEditTime: 2022-08-13 22:28:58
  */
 let i = 0
+// eslint-disable-next-line
 function timeCount() {
   i++
   postMessage(i)
